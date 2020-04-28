@@ -1,0 +1,28 @@
+/**********************/
+/******** PAGE ********/
+/**********************/
+
+h1 {
+    padding-top: 8%;
+    text-align: center;
+}
+
+.card {
+    background-color: #FFFF7F;
+    display: inline-block;
+    border-radius: 10px;
+    width: 5000px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/**********************/
+/***** ENTRY FORM *****/
+/**********************/
+
+#add {
+    margin: 2%;
+}

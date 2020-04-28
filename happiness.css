@@ -1,0 +1,151 @@
+/**********************/
+/******** PAGE ********/
+/**********************/
+
+html, body {
+    height: 100%;
+}
+
+html {
+    background-color: #FFFF99;
+}
+
+body {
+    width: 100%;
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #FFFF99;
+}
+
+h1 {
+    padding-top: 8%;
+    text-align: center;
+}
+
+/**********************/
+/***** NAVIGATION *****/
+/**********************/
+
+nav {
+    position: fixed;
+}
+
+.nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    z-index: 10;
+}
+
+@media (min-width:992px) {
+    .navbar-expand-lg {
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -ms-flex-pack: start;
+        justify-content: flex-start
+    }
+    
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row
+    }
+    
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute
+    }
+    
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem
+    }
+    
+    .navbar-expand-lg>.container,
+    .navbar-expand-lg>.container-fluid {
+        -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap
+    }
+    .navbar-expand-lg .navbar-collapse {
+        display: -ms-flexbox!important;
+        display: flex!important;
+        -ms-flex-preferred-size: auto;
+        flex-basis: auto
+    }
+    .navbar-expand-lg .navbar-toggler {
+        display: none
+    }
+}
+
+.nav-item {
+    margin-bottom: -1px;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    text-align: center;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    padding: .5rem 1rem;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-section {
+    padding: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #FDE452;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-wrapper {
+    display: block;
+    width: 100%;
+}
