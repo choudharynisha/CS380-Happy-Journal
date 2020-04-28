@@ -7,18 +7,23 @@ In the Spring 2020 semster, the topic for CS380 – Recent Advances in Computer 
 A few years ago, I saw a post on Facebook about creating a happiness jar, where one would
 
 (1) take an empty jar,
+
 (2) starting from New Year's Day of the following year, write down things that make them happy on scraps of paper, which all go in the jar, and
+
 (3) take them all out on New Year's Eve of that year and look at all the great things that happened throughout the year.
 
-Here's the Happiness Jar's cover photo (shown below), which is similar to the original post I saw –
-![Happiness Jar Idea](https://www.facebook.com/HapJar/photos/a.236526546818416/236526536818417/?type=1&theater)
+Here's [the Happiness Jar's cover photo](https://www.facebook.com/HapJar/photos/a.236526546818416/236526536818417/?type=1&theater) (shown below), which is similar to the original post I saw –
+
+![Happiness Jar Idea](https://cs380happyjournal.nishachoudhary.com/Screenshots/HappinessJarCoverPhoto.png)
 
 ## What Happy Journal Addresses
 
 I created the Happy Journal to mimic the idea of creating a happiness jar, but to also address the following –
 
 (1) Reduce paper consumption
+
 (2) Eliminate the need to keep jars
+
 (3) Easily maintain all happy moments, and archive as desired *(to be addressed in future development of the app)*
 
 ## Current Functionality
@@ -54,8 +59,13 @@ The View Journal page uses HTML, CSS, Bootstrap, and PHP. Each entry in the CSV 
 In the future, I would like to further develop the Happy Journal web app to enhance the user experience. Features and functionality I would like to add are –
 
 (1) account creation
+
 (2) sorting (alphabetically, categorically, and chronologically)
+
 (3) resetting the "journal"
+
 (4) deleting entries
+
 (5) option to create archives
+
 (6) option to download entries
